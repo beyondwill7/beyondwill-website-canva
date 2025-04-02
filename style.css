@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #f1f1f1;
+  line-height: 1.7;
+}
+
+a {
+  color: #7fd1ff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  background: linear-gradient(to right, #20004d, #8700ff);
+  color: white;
+  padding: 100px 20px 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #cce6ff;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.team-list li,
+.reviews li {
+  padding: 6px 0;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.columns li {
+  flex: 1 1 250px;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.faq p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #141414;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer-content a {
+  color: #7fd1ff;
+}
+
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+  }
+}
